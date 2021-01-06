@@ -60,8 +60,8 @@ songplay_table_create = (
     start_time timestamp not null, 
     user_id varchar not null, 
     level varchar, 
-    song_id varchar, 
-    artist_id varchar, 
+    song_id varchar not null, 
+    artist_id varchar not null, 
     session_id int, 
     location varchar, 
     user_agent varchar)"""
