@@ -29,3 +29,8 @@ The ETL pipeline is such that the script will load all events from the json file
 
 >> python etl.py
 
+#### Files in the repository:
+1) etl.py --> Python file to execute the data pipeline
+2) create_tables.py --> Creates the tables in Redshift
+3) sql_queries.py --> Used to insert data in the data model
+4) dwh.cfg --> Update the AWS credentials in this file
